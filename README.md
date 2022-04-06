@@ -1,4 +1,5 @@
-# holberton-smiling-school
+# 0x01. Implement a design with bootstrap
+ holberton-smiling-school
 
 ### Requirements
     - you have to use Bootstrap
