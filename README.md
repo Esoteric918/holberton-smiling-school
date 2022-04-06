@@ -6,6 +6,8 @@
 
 ### Imports
 For this project, you will need: fonts from Google, JQuery, Bootstrap CSS/JS
+![image](https://user-images.githubusercontent.com/85411745/162050793-80551c69-5807-4e2c-844e-d894b15dd2e6.png)
+
 
 
 ### Reference
