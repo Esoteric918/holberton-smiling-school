@@ -13,7 +13,10 @@ For this project, you will need: fonts from Google, JQuery, Bootstrap CSS/JS
 
 ### Reference
 
-The finished product of the project will taken from this [Figma file](https://www.figma.com/file/naK8gNgMoj6N7zsq4WtSRF/Homepage-(Copy))
+The finished product of the project will taken from these Fimma files.
+- [Homepage](https://www.figma.com/file/QYQqMYbdpAHL5xTclwJKSI/Homepage?node-id=0%3A1)
+- [Pricing](https://www.figma.com/file/KLAI53jdYpfFNEy0O79ymB/Pricing?node-id=0%3A1
+- [Courses](https://www.figma.com/file/ivg3abH1HLmMayBgjGg1Qf/Courses?node-id=0%3A1)
 ![image](https://user-images.githubusercontent.com/85411745/162047538-ab58db03-abc7-4587-b6d6-1f8588d8e406.png)
 ![image](https://user-images.githubusercontent.com/85411745/162050581-558226ce-e00e-4ada-bd1d-4b91f45ab338.png)
 
