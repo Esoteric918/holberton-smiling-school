@@ -1,0 +1,152 @@
+/* SUMMARY
+1. GLOBAL
+2. HOMEPAGE
+    - MAIN
+3. PRICING
+4. COURSES
+5. FOOTER
+*/
+/* Underscored name properties are custom */
+
+/*** 1. GLOBAL ***/
+/* Color variables
+  ============================= */
+
+  :root {
+    --color-purple: #c271ff;
+    --color-dark-blue: #071629;
+
+    /* fonts */
+    --font-family: 'Source Sans Pro', sans-serif;
+    --HB-font-icon: holberton_school-icon;
+}
+
+/* Base */
+body {
+    --font-family: 'Source Sans Pro', sans-serif;
+  }
+.btn-primary {
+    background-color: var(--color-purple) !important;
+}
+.btn-primary:hover {
+    opacity: 0.9;
+    background-color: var(--color-purple);
+  }
+.btn-primary:active {
+      background-color: var(--color-purple);
+  }
+
+.purple {
+    color: var(--color-purple);
+}
+
+/* 1. Hompage */
+/* Header - Logo */
+
+.logo-smile {
+    background: url("images/smile_off.png") no-repeat;
+    background-size: contain;
+    display: block;
+    width: 35px;
+    height: 30px;
+    text-indent: -9999px;
+}
+.logo-text {
+    background: url("images/logo.png") no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100px;
+    height: 30px;
+    text-indent: -9999px;
+}
+/* Hidden Menu
+  ============================== */
+.holberton_school-icon-menu {
+    margin-left: .5rem;
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+}
+/* Hero
+    ================= */
+.homepage-header {
+    background:url("images/pic_1.jpg") var(--color-dark-blue) center center no-repeat;
+    background-size: cover;
+    background-size: cover;
+    min-height: 1093px;
+    width: 100%;
+    padding-bottom: 2.5rem;
+}
+
+/* Main */
+/*  testamonial Carousel
+    ================= */
+
+.testamonials {
+    background-color: var(--color-purple);
+    display: inline-flex;
+
+}
+img {
+    width: 148px;
+    height: 148px;
+}
+.icon-left::before {
+    font-family: var(--HB-font-icon) !important;
+    content: "\e903";
+    color: var(--color-dark-blue);
+    font-size: 5rem;
+}
+.icon-right::before {
+    font-family: var(--HB-font-icon) !important;
+    content: "\e902";
+    color: var(--color-dark-blue);
+    font-size: 5rem;
+}
+/* tutorials Carousel
+    =============== */
+.play-icon {
+    position: absolute;
+    top: 45px;
+    left: 95.5px;
+}
+
+/* Media Query's
+    =================*/
+
+@media screen and (max-width: 568px) {
+
+    .school {
+            font-size: 12vw;
+    }
+    .learn {
+        font-size: 8vw;
+    }
+}
+
+@media screen and (min-width: 569px) and (max-width: 767px) {
+    .school {
+        font-size: 10vw;
+    }
+    .car-helper {
+        margin:0 0 0 4rem;
+
+    }
+    .img-helper {
+        margin-bottom: 5rem;
+
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1550px){
+
+    .car-helper {
+        margin:0 0 0 7rem;
+        justify-content: center;
+    }
+    .img-helper {
+        margin-bottom: 3rem;
+        justify-content: center;
+    }
+}
+
