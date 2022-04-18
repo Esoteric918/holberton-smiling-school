@@ -44,6 +44,11 @@ body {
 .background {
     background-color: var(--color-dark-blue);
 }
+
+.form-bg {
+    background-color: var(--color-purple);
+}
+
 .font_size{
     font-size: 32px;
 }

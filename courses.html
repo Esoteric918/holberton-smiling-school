@@ -48,14 +48,48 @@
 </body>
 <main>
     <!--form section-->
-    <section class="form">
-
+    <section class="search-bar py-3 text-white form-bg">
+        <form class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4 mt-3">
+                    <label for="searchInput"><small><b>KEYWORDS</b></small></label>
+                    <div class="input-group border-bottom mb-0 mb-lg-3">
+                        <span class="input-group-append">
+                            <span class="search-icon d-flex align-items-center px-2"></span>
+                        </span>
+                        <input class="form-control border-0" type="search" placeholder="Search by keywords" id="searchInput">
+                    </div>
+                </div>
+                <div class="form-group col-12 col-sm-6 col-lg-4 mt-3">
+                    <label for="topicSelect"><small><b>TOPIC</b></small></label>
+                    <div class="border-bottom">
+                        <select class="form-control" id="topicSelect">
+                            <option>Novice</option>
+                            <option>Intermediate</option>
+                            <option>Expert</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group col-12 col-sm-6 col-lg-4 mt-3">
+                    <label for="searchResult"><small><b>SORT BY</b></small></label>
+                    <div class="border-bottom">
+                        <select class="form-control border-bottom" id="exampleFormControlSelect1">
+                            <option>Most Popular</option>
+                            <option>Most Recent</option>
+                            <option>Most Viewed</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
     </section>
     <!--Card section-->
     <section class="card py-5">
         <!--row 1-->
         <div class="d-flex row-cols-3 justify-content-around px-5 pb-4">
         <!--card 1-->
+
             <div class="card" style="max-width: 255px;">
                 <img src="images/thumbnail_1.jpg" alt="thumbnail" class="card-img-top">
                 <img src="images/play.png" alt="play-button" class="position-absolute play-icon" style="max-width: 64px; max-height: 64px;">
