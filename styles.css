@@ -84,6 +84,9 @@ body {
     width: 100%;
     padding-bottom: 2.5rem;
 }
+.nav-link a:active, .nav-link a:hover {
+    color: var(--color-purple);
+}
 
 /* Main */
 /*  testamonial Carousel
@@ -241,6 +244,16 @@ img {
 }
 .go-pro {
     font-size: 60px;
+}
+.circle-checks:before {
+    font-size: 28px;
+    color: #82D24F;
+    font-family: var(--HB-font-icon) !important;
+    content: "\e905";
+}
+.logo {
+    width: 100px;
+    height: 35;
 }
 
 /* 4. COURSES PAGE */
